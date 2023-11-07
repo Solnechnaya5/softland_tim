@@ -99,14 +99,19 @@ h6 {
     --theme-color-red-error: #f23d3d;
 }
 body{
-   background-color: #c23f3e;
+   /* background-color: #c23f3e;
+   max-width: 1920px;
+   overflow-x: hidden; */
 }
 .page-wrapper {
-    max-width: 1920px;
-    height: auto;
+    width: 1920px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
     position: relative;
     padding: 0;
     margin: 0;
+    
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
